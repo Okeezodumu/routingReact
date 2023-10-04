@@ -1,0 +1,60 @@
+.contactContainer{
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh;
+
+}
+.contactHeader {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    color: gray;
+    font-size: 1.7rem;
+}
+
+.contactHeader h1 {
+    font-size: 3rem;
+    color: gray;
+}
+
+.contactMain {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.contactMain input {
+    width: 70%;
+    border-radius: 15px;
+    padding: 10px;
+    background-color:  hsl(0, 5%, 88%);
+    color: gray;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid green;
+}
+.contactMain button {
+    color: white;
+    background-color: orangered;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    width: 320px;
+}
+.contactMain .content {
+    font: 500;
+    font-size: 3rem;
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 7px;
+    width: 70%;
+}
+.contactMain .content p {
+    border-bottom: 1px solid gray;
+    color: darkgray;
+    font-size: 1.7rem;
+    padding-top: 8px;
+}

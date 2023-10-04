@@ -1,0 +1,17 @@
+.serviceContainer {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.serviceContainer h1{
+    color: gray;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+}
+.serviceContainer p {
+    width: 700px;
+    text-wrap: wrap;
+    color: dimgray;
+}
